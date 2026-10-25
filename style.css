@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.mainSec {
+    height: 100vh;
+    background-image: url(./imgs/d1855d17df684fa19c6cb1bbf546d49d.jpg);
+    background-position: center;
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        text-align: center;
+        align-items: end;
+        padding: 50px;
+
+        .mainText {
+
+            h1 {
+                margin-bottom: 30px;
+                color: antiquewhite;
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(215, 228, 250);
+            }
+        }
+    }
+
+}
